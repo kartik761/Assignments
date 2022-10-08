@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main ()
+{
+    printf ("kartik\nkrishna\nkale\n");
+    return 0;
+}

@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main ()
+{
+    printf("kartik krishna kale");
+    return 0;
+
+}
