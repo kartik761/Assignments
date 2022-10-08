@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()
+{
+    //add comments
+    int a;
+    a=10;
+    printf("The value of variable is 10");
+    return 0;
+}

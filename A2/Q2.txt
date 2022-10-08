@@ -1,0 +1,92 @@
+1. #include <stdio.h>
+int main ()
+{int a;   
+return 0;}
+
+
+
+2.#include <stdio.h>
+int main ()
+{int 0a;   
+return 0;}
+(shows error)
+
+
+
+3.#include <stdio.h>
+int main ()
+{int ZeroNumber;   
+return 0;}
+
+
+4.#include <stdio.h>
+int main ()
+{int _first;   
+return 0;}
+
+
+5. #include <stdio.h>
+int main ()
+{int 009;   
+return 0;}
+(shows error)
+
+
+6.#include <stdio.h>
+int main ()
+{int year@22;   
+return 0;}
+(shows error)
+
+
+7.#include <stdio.h>
+int main ()
+{int sept21;   
+return 0;}
+
+
+8.#include <stdio.h>
+int main ()
+{int YahooGoogle;   
+return 0;}
+
+
+9.#include <stdio.h>
+int main ()
+{int else;   
+return 0;}
+(else cant be used because its already reserved)
+
+
+10.#include <stdio.h>
+int main ()
+{int int;
+return 0;}
+(int cant be used because its already reserved)
+
+
+11.#include <stdio.h>
+int main ()
+{int float;
+return 0;}
+(float cant be used because its already reserved)
+
+12.#include <stdio.h>
+int main ()
+{int double;
+return 0;}
+(double cant be used because its already reserved)
+
+
+13. #include <stdio.h>
+int main ()
+{int char;
+return 0;}
+(char cant be used because its already reserved)
+
+
+14.#include <stdio.h>
+int main ()
+{int intOne;
+return 0;}
+

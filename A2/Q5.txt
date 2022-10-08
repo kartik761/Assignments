@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main ()
+{
+    //add comments
+    int a,b,c,d;
+    a=15;
+    b=16;
+    c=17;
+    d=18;
+    printf ("First variable holds an integer constant 15\nSecond variable holds an integer contant 16\nThird variable holds an integer constant 17\nFourth variable holds an integer constant 18\n");
+return 0;}
