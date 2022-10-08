@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
-{
+{  
    //add comments   
-   printf ("helloworld/n");
+   printf ("helloworld");
    return 0;
 }
