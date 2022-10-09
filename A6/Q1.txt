@@ -1,0 +1,40 @@
+#include <stdio.h>
+void Rectangle();
+void square();
+void circle();
+int main()
+{
+    Rectangle();
+    printf("In Rectangle\n");
+    square();
+    printf("In Square\n");
+    circle();
+    printf("In circle\n");
+}
+void Rectangle(){
+    printf("In Rectangle\n");
+    int length,width,Rarea,Rperimeter ;
+    printf("Enter length & width\n");
+    scanf("%d %d",&length,&width);
+	Rarea = length * width;
+	Rperimeter = 2*(length+width);
+	printf("Rarea = %d\n  Rperimeter = %d\n",Rarea,Rperimeter);    
+}
+void square (){
+	printf("In sqaure\n");
+	int side, Sarea , Sperimeter;
+	printf("Enter side\n");
+	scanf("%d",&side);
+	Sarea = side*side;
+	Sperimeter = 4*side;
+	printf("area =%d\n  perimeter = %d\n",Sarea,Sperimeter);
+}
+void circle(){
+	printf("In circle\n");
+	int r,Carea,circumference;
+	printf("Enter Radius\n");
+	scanf("%d",&r);
+	Carea = 3.14*r*r;
+	circumference = 2*3.14*r;
+	printf("Carea = %d\n  Circumferece = %d\n",Carea,circumference);
+}

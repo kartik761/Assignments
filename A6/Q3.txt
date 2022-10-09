@@ -1,0 +1,40 @@
+#include <stdio.h>
+void Addition();
+void Subtraction();
+void Multiplication();
+void Division();
+int main ()
+{
+	Addition();
+	Subtraction();
+	Multiplication();
+	Division();
+}
+void Addition(){
+	int a,b,sum;
+	printf("Enter first digit\nEnter second digit\n");
+	scanf("%d %d",&a,&b);
+	sum= a+b;
+	printf("Sum of digits is : %d+%d\n",sum);
+}
+void Subtraction (){
+	int c,d,Sub;
+	printf("Enter your 1st digit\nEnter your second digit\n");
+	scanf("%d %d",&c,&d);
+	Sub= c-d;
+	printf("Subtraction is: %d-%d",Sub);
+}
+void Multiplication(){
+		int e,f,Multi;
+	printf("Enter your 1st digit\nEnter your second digit\n");
+	scanf("%d %d",&e,&f);
+	Multi= e*f;
+	printf("Multiplication is: %d*%d",Multi);
+}
+void Division(){
+		int a1,a2,Div;
+	printf("Enter your 1st digit\nEnter your second digit\n");
+	scanf("%d %d",&a1,&a2);
+	Div= a1/a2;
+	printf("Division is: %d/%d",Div);
+}
