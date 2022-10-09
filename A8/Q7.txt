@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int a,Usd;
+   printf("Write a INR\n");
+   scanf("%d",&a);
+   Usd=a/80;
+   printf("INR to USD is:%d",Usd);
+   return 0;
+   
+}
