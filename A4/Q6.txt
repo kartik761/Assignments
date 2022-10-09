@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main ()
+{
+    int Meters,Kilometers;
+    printf("Enter the distance between two cities in kms\n",Kilometers);
+    scanf("%d",&Kilometers);
+    
+    Meters = Kilometers * 1000;
+    printf ("The distance in meters is:%d",Meters);
+    return 0;
+    }
+

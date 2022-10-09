@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main ()
+{
+    int Inches,Height;
+    printf("Enter the height of student\n",Height);
+    scanf("%d",&Height);
+    
+    Inches = Height * 12;
+    printf ("Height in inches is:%d",Inches);
+    return 0;
+    }
+

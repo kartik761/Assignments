@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{   int a,b,Answer;
+printf ("Enter first value:",a);
+scanf("%d", &a);
+printf ("Enter second value:",b);
+scanf("%d", &b);
+Answer= a / b;
+printf("Your sum is : %d / %d = %d", a,b,Answer);
+return 0;
+}

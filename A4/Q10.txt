@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main ()
+{
+    int F,C;
+    printf("Enter the temperature value in fehrenheit:\n",F);
+    scanf("%d",&F);
+    C = F-32*1.8;
+    printf("The temperature in Centigrades is:%d",C);
+    return 0;
+}

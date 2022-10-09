@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{   int a,b,Multi;
+printf ("Enter first value:",a);
+scanf("%d", &a);
+printf ("Enter second value:",b);
+scanf("%d", &b);
+Multi= a * b;
+printf("Your answer is : %d * %d = %d", a,b,Multi);
+return 0;
+}
+
