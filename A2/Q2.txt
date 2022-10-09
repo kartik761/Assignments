@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main ()
+{
+	//add comments
+	int a;
+	printf("Variable value is 10",a);
+	scanf("%d",&a);
+	printf("The value is:%d",a);
+	return 0;
+}
