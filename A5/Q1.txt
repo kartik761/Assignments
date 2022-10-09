@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {   
+    int Basicsalary,HR,DA,gross;
+   
+    printf("Enter Aman's basic salary:",Basicsalary);  
+    scanf("%d",&Basicsalary);
+    DA=0.5* Basicsalary;
+    HR=0.2* Basicsalary;
+   
+    
+    gross= Basicsalary + DA + HR ;
+    printf("Gross salary of Aman is:%d",gross);
+    return 0;
+}

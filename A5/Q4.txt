@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()
+{
+    int side,area;
+    printf("Enter side value of sqaure\n",side);
+    scanf("%d",&side);
+    area= side*side;
+    printf("Area of sqaure is: %d", area);
+    return 0;}

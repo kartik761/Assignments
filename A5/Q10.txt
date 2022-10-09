@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main ()
+{
+	float a,b,c,d,e,percentage;
+	 printf("Enter marks in First subject:\n");
+	 scanf("%f",&a);
+	 printf("Enter marks in second subject:\n");
+	 scanf("%f",&b);
+	 printf("Enter marks in third subject:\n");
+	 scanf("%f",&c);
+	 printf("Enter marks in Fourth subject:\n");
+	 scanf("%f",&d);
+	 printf("Enter marks in fifth subject:\n");
+	 scanf("%f",&e);
+	 percentage=(a+b+c+d+e)/500*100;
+	 printf("percentage obtained is:%.2f\n",percentage);
+	 return 0;
+}
