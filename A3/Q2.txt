@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() 
+{   
+    int a,b;
+    //input
+    printf("Enter an value for first integer: \n", a);
+    scanf("%d", &a);  
+    printf ("Enter an value for second integer :\n", b);
+    scanf("%d",&b);
+    
+
+    //output
+    printf ("You entered for first: %d\n", a);
+    printf("You entered value for second: %d", b);
+    
+    return 0;
+}
+

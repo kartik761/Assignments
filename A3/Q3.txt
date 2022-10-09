@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() 
+{   
+    int a,b,c;
+    //input
+    printf("Enter an value for first integer: \n", a);
+    scanf("%d", &a);  
+    printf ("Enter an value for second integer :\n", b);
+    scanf("%d",&b);
+    printf("Enter an value for third integer: \n", c);
+    scanf("%d", &c);
+    
+
+    //output
+    printf ("You entered value for first: %d\n", a);
+    printf("You entered value for second: %d\n", b);
+    printf("You entered value for third: %d", c);
+    
+    return 0;
+}
+
