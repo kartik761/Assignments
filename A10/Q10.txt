@@ -1,26 +1,26 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
-    int units;
-    float amount, totalamount, scharge;
- 
-    printf("Enter units: ");
-    scanf("%d", &units);
+float f;
+printf("Testing of various arithmetic operations-2\n");
+f = 2/9;
+printf("1. Value of float f is %f\n",f);
+f = 2.0/9;
+printf("2. Value of float f is %f\n",f);
+f = 2/9.0;
+printf("3. Value of float f is %f\n",f);
+f = 2.0/9.0;
+printf("4. Value of float f is %f\n",f);
+f = 9/2;
+printf("5. Value of float f is %f\n",f);
+f = 9.0/2;
+printf("6. Value of float f is %f\n",f);
+f = 9/2.0;
+printf("7. Value of float f is %f\n",f);
+f = 9.0/2.0;
+printf("8. Value of float f is %f\n",f);
 
-   if(units<=50)
-    {
-    amount=units*0.50;}
-    else if(units<=150)
-    {amount=25+((units-50)*0.75);}
-    else if(units<=250)
-    {amount=100+((units-150)*1.20);}
-    else
-    {amount=220+((units-250)*1.50);}
-
-    scharge=amount*0.20;
-    totalamount=amount+scharge;
-    printf("Electricity Bill:%.2f", totalamount);
-
-    return 0;
+return 0;
 }
+
+output value is in decimal form because of float
