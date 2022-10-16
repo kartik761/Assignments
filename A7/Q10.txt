@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("Enter first side\n",a);
+	scanf("%d",&a);
+	printf("Enter second side\n",b);
+	scanf("%d",&b);
+	printf("Enter third side\n",c);
+	scanf("%d",&c);
+	
+	if(a=b=c)
+	{
+		printf("Valid\n");
+	}
+	else if(a+b>c||b+c>a||c+a>b)
+	{ printf("Valid\n");
+	}
+    else {printf("not valid\n");
+	}
+return 0;
+	
+	
+}
