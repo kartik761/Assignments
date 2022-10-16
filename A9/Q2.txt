@@ -1,0 +1,40 @@
+#include<stdio.h>
+
+int main()
+{
+   int BEE,BME,physics,chemistry,maths,average,total,percentage;
+
+   printf("There are 5 Subjects and each subject is of 100 Marks\n");
+
+   printf("Overall Marks:");
+   scanf("%d",&total);
+   printf("Enter your marks in BEE:");
+   scanf("%d",&BEE);
+   printf("Enter your marks in BME:");
+   scanf("%d",&BME);
+   printf("Enter your marks in Physics:");
+   scanf("%d",&physics);
+   printf("Enter your marks in ChemistrY:");
+   scanf("%d",&chemistry);
+   printf("Enter your marks in Maths:");
+   scanf("%d",&maths);
+
+
+average = BEE + BME + physics + chemistry + maths;
+printf("Average Marks of Student\n");
+printf("%d = %d+%d+%d+%d+%d\n",average,BEE,BME,physics,chemistry,maths);
+
+
+percentage = (average*100)/ total;
+printf("%d%% = (%d * 100) / %d\n",percentage,average,total);
+printf("Overall percentage is %d%% \n",percentage);
+
+if(percentage>33)
+{
+printf("passed\n");
+}
+else if(percentage<33)
+{
+printf("failed\n");}
+return 0;
+}

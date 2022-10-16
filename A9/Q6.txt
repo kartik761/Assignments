@@ -1,0 +1,79 @@
+#include<stdio.h>
+
+int main()
+{
+
+int Perpendicular,Base,Hyp;
+
+printf("Enter the length of Perpendicular : "); 
+scanf("%d",&Perpendicular);
+printf("\n");
+
+printf("Enter the length of Base : "); 
+scanf("%d",&Base);
+printf("\n");
+printf("Enter the length of Hypotenuse : ");
+scanf("%d",&Hyp);
+printf("\n");
+Perpendicular=Base+Hyp;
+Base=Perpendicular+Hyp;
+Hyp=Perpendicular+Base;
+if(Perpendicular==Base+Hyp||Base==Perpendicular+Hyp||Hyp==Perpendicular+Base)
+{
+printf("valid");
+}
+
+else if(Perpendicular<Base+Hyp)
+{
+printf("not valid");
+}
+else if(Base<Perpendicular+Hyp)
+{
+printf("not valid");
+}
+else if(Hyp<Perpendicular+Base)
+{
+printf("not valid");
+}
+else if(Perpendicular<=0)
+{
+printf("not valid");
+}
+else if(Base<=0)
+{
+printf("not valid");
+}
+else if(Hyp<=0)
+{
+printf("not valid");
+}
+else if(Perpendicular==Base)
+{
+printf("valid");
+}
+else if(Hyp==Base)
+{
+printf("valid");
+}
+else if(Perpendicular==Hyp)
+{
+printf("valid");
+}
+else if(Perpendicular=0)
+{
+printf("not valid");
+}
+else if(Base=0)
+{
+printf("not valid");
+}
+else if(Hyp=0)
+{
+printf("not valid");
+}
+else
+{
+printf("You entered wrong values");
+}
+return 0;
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+	int a,b,c,d;
+	a=5;
+	printf("Write value of A\n");
+	b=10;
+	printf("Write value of B\n");
+	printf("Press Enter\n",a,b);
+	scanf("%d%d",&a,&b);
+	
+	//swaping
+	if (a=5,b=10)
+	{
+	c=a*2;
+	printf("A is:%d\n",c);
+	d=b/2;
+	printf("B is:%d\n",d);}
+	
+	else{printf("You entered wrong value\n");
+	}
+	return 0;
+}
