@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+	int a,b,c,d,e,average,total;
+	printf("Marks in each subject is 100\n");
+	total=500;
+	printf("Enter first subject marks\n",a);
+	scanf("%d",&a);
+	printf("Enter second subject marks\n",b);
+	scanf("%d",&b);
+	printf("Enter third subject marks\n",c);
+	scanf("%d",&c);
+	printf("Enter fourth subject marks\n",d);
+	scanf("%d",&d);
+	printf("Enter fifth subject marks\n",e);
+	scanf("%d",&e);
+	
+	average=a+b+c+d+e;
+	printf("Average is:%d\n",average);
+	
+	if(average>165)
+	{printf("Student is passed\n");
+	}
+	else {printf("student failed\n");
+	}
+	
+return 0;
+	
+	
+}
