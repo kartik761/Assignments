@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	printf("Enter a two or more than two digit number",a);
+	scanf("%d",&a);
+	
+	b=a%10;
+	printf("Unit digit is:%d",b);
+	return 0;
+}
