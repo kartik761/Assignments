@@ -1,24 +1,15 @@
 #include <stdio.h>
-int main ()
-{
-	int a,b,c,d;
-	a=5;
-	printf("Enter a Value for A\n",a);
-	scanf("%d",&a);
-	b=10;
-	printf("Enter a Value for B\n",b);
-	scanf("%d",&b);
-	
-	//swaping
-	if (a==5,b==10)
-	{
-		c=a*2;
-		printf("A is:%d\n",c);
-		d=b/2;
-		printf("B is:%d\n",d);
-	}
-   else {
-   	printf("You entered wrong value\n");
-   }
-   return 0;
-}
+ int main () 
+{ 	int a,b,c,d;	
+ 	
+printf("Enter a Value for A\n",a); 	
+scanf("%d",&a);  	
+printf("Enter a Value for B\n",b); 
+	scanf("%d",&b); 	 
+	//swaping 	
+printf ("A=%d, B=%d\n",a,b);
+   c=b;
+   d=a;
+printf("A=%d, B=%d",c,d);
+    
+return 0; }
